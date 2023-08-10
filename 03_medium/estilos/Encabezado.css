@@ -1,0 +1,45 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sohne;
+}
+
+.header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #FFC017;
+    border-bottom: 1.5px solid black;
+    padding: 20px 24px;
+}
+
+.header-logo{
+    width: 150px;
+}
+
+.contenedor-links{
+    padding-left: 10px;
+    display: flex;
+}
+
+.link-header{
+    padding-left: 20px;
+    display: none;
+}
+
+.contenedor-boton-header{
+    padding-left: 20px;
+}
+
+.contenedor-boton-header .boton-header{
+    border-radius: 20px;
+    border: none;
+    padding: 8px 16px;
+    color: white;
+    background-color: black;
+    font-weight: 400;
+    font-size: 16px;
+    cursor: pointer;
+}
+
