@@ -1,0 +1,49 @@
+.contenedor-principal{
+    width: 100vw;
+    height: 434px;
+    background-color: #FFC017;
+    border-bottom: solid 1px black;
+}
+
+.contenedor-baner{
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    margin: 0px 24px;
+}
+
+.contenedor-baner .contenedor-titulo{
+    padding-bottom: 35px;
+    width: 100%;
+}
+.contenedor-baner .contenedor-titulo h1{
+    font-size: 70px;
+    font-weight: 400;
+}
+
+.contenedor-baner .contenedor-parrafo{
+    padding-bottom: 50px;
+    width: 100%;
+}
+
+.contenedor-baner .contenedor-parrafo p{
+    font-size: 25px;
+    font-weight: 400;
+}
+
+.contenedor-baner .contenedor-boton{
+    width: 100%;
+}
+
+.contenedor-baner .contenedor-boton button{
+    border: 1px solid black;
+    border-radius: 99em;
+    padding: 8px 20px;
+    line-height: 24px;
+    background-color: black;
+    color: white;
+    font-size: 20px;
+    width: 213px;
+}

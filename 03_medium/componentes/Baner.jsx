@@ -1,11 +1,12 @@
 export function Baner () {
   return (
-    <div className='contenedor-principal'>
-      <div className='contenedor-baner'>
+    <section className='contenedor-principal'>
+      {/* Hacemos un contenedor interno para el baner */}
+      <article className='contenedor-baner'>
         <div className='contenedor-titulo'>
           <h1>Stay curious</h1>
         </div>
-        <div className='contenedor-'>
+        <div className='contenedor-parrafo'>
           <p>Discover stories, thinking, and expertise from weiters on any topic.</p>
         </div>
         <div className='contenedor-boton'>
@@ -14,7 +15,7 @@ export function Baner () {
         <div className='contenedor-animacion'>
           <img src='' alt='' />
         </div>
-      </div>
-    </div>
+      </article>
+    </section>
   )
 }
