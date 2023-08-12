@@ -1,4 +1,5 @@
 .contenedor-principal{
+    margin-top: 75px;
     width: 100vw;
     height: 434px;
     background-color: #FFC017;
@@ -46,4 +47,5 @@
     color: white;
     font-size: 20px;
     width: 213px;
+    cursor: pointer;
 }

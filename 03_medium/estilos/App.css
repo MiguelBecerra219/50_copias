@@ -1,0 +1,4 @@
+.section-principal{
+    display: flex;
+    flex-direction: column;
+}

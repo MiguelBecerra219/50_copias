@@ -1,3 +1,5 @@
+import '../estilos/Encabezado.css'
+
 export function Encabezado () {
   return (
     <header className='header'>

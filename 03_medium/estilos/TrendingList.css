@@ -1,0 +1,23 @@
+.section-trending-list{
+    background-color: #FFF;
+}
+
+.contenedor-trending-list{
+    margin: 0px 24px;
+    padding: 40px 0px 16px 0px;
+}
+
+.header-trending-list{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-bottom: 16px;
+}
+
+.header-trending-list .contenedor-icono{
+    margin-right: 10px;
+}
+
+.header-trending-list .contenedor-icono img{
+    width: 30px;
+}

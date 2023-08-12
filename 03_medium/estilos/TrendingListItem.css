@@ -1,0 +1,38 @@
+.contenedor-item{
+    display: flex;
+    margin-bottom: 24px;
+}
+
+.contenedor-item .contenedor-span{
+    margin-right: 16px;
+    font-size: 35px;
+    font-weight: 500;
+    color: #F2F2F2;
+}
+
+
+.contenedor-item .contenedor-span span{
+    line-height: 38px;
+    font-family:  'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    letter-spacing: -0.15em;
+}
+
+.contenedor-item .contenedor-contenido{
+    display: flex;
+    flex-direction: column;
+}
+
+.contenedor-item .contenedor-contenido .contenedor-nombre{
+    display: flex;
+    margin-bottom: 8px;
+} 
+
+.contenedor-item .contenedor-contenido .contenedor-nombre img{
+    width: 20px;
+    border-radius: 50%;
+    margin-right: 8px;
+} 
+
+.contenedor-item .contenedor-contenido .contenedor-titulo{
+    margin-bottom: 8px;
+}

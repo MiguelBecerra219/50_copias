@@ -1,13 +1,16 @@
 import { Encabezado } from './Encabezado'
-import '../estilos/Encabezado.css'
+import '../estilos/App.css'
 import { Baner } from './Baner'
-import '../estilos/Baner.css'
+import { TrendingList } from './TrendingList'
 
 export function App () {
   return (
     <>
-      <Encabezado />
-      <Baner />
+      <section className='section-principal'>
+        <Encabezado />
+        <Baner />
+      </section>
+      <TrendingList />
     </>
   )
 }

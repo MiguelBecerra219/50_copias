@@ -1,3 +1,5 @@
+import '../estilos/Baner.css'
+
 export function Baner () {
   return (
     <section className='contenedor-principal'>
