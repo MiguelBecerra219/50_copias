@@ -21,3 +21,14 @@
 .header-trending-list .contenedor-icono img{
     width: 30px;
 }
+
+.section-trending-list .contenedor-items .link-trending{
+    text-decoration: none;
+    color: black;
+}
+
+.section-trending-list .contenedor-trending-list .header-trending-list .contenedor-titulo{
+    font-family: 16px;
+    font-weight: 500;
+    line-height: 20px;
+}

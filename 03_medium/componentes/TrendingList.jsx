@@ -1,5 +1,6 @@
 import { TrendingListItem } from './TrendingListItem'
 import '../estilos/TrendingList.css'
+import { trendingItems } from '../constantes/items.js'
 
 export function TrendingList () {
   return (
@@ -13,9 +14,11 @@ export function TrendingList () {
             <h2>Trending on Medium</h2>
           </div>
         </header>
-        <TrendingListItem />
-        <TrendingListItem />
-        <TrendingListItem />
+        <main className='contenedor-items'>
+          {trendingItems.map(item => (
+            <TrendingListItem key={item.numero} numero={item.numero} foto={item.foto} nombre={item.nombre} titulo={item.titulo} fecha={item.fecha} />
+          ))}
+        </main>
       </div>
     </section>
   )

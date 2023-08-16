@@ -1,22 +1,24 @@
 import '../estilos/TrendingListItem.css'
 
-export function TrendingListItem () {
+export function TrendingListItem ({ numero, foto, nombre, titulo, fecha }) {
+  const rutaFoto = '../media/' + foto
+
   return (
     <article>
       <div className='contenedor-item'>
         <div className='contenedor-span'>
-          <span>01</span>
+          <span>{numero}</span>
         </div>
         <div className='contenedor-contenido'>
           <div className='contenedor-nombre'>
-            <img src='../media/perfil.jpg' alt='' />
-            <p>Marie Le Conte</p>
+            <img src={rutaFoto} alt='Foto del usuario' />
+            <a href=''>{nombre}</a>
           </div>
           <div className='contenedor-titulo'>
-            <h3>Limbs</h3>
+            <a href=''>{titulo}</a>
           </div>
           <div className='contenedor-fecha'>
-            <p>aug 9 . 4 min read</p>
+            <p>{fecha}</p>
           </div>
         </div>
       </div>
