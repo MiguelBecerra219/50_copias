@@ -1,0 +1,23 @@
+.section-tags .main-tags .contenedor-tags{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
+}
+
+.section-tags .header-tags{
+    padding-bottom: 16px;
+}
+
+.section-tags{
+    padding: 24px 24px;
+    border-top: 1px solid #F2F2F2;
+}
+
+.section-tags .footer-tags{
+    margin-top: 14px;
+}
+
+.section-tags .footer-tags a{
+    text-decoration: none;
+    color: #1A8917;
+}
