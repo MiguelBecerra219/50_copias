@@ -1,0 +1,21 @@
+.contenedor-tag{
+    border-radius: 15px;
+    border: 1px solid #F2F2F2;
+    background-color: #F2F2F2;
+    cursor: pointer;
+    margin-right: 8px;
+    margin-bottom: 10px;
+    display: flex;
+    line-height: 20px;
+    align-items: center;
+    justify-content: center;
+}
+
+.contenedor-tag .tag{
+    text-decoration: none;
+    color: #242424;
+    padding: 8px 16px;
+    font-size: 14px;
+    line-height: 20px;
+    font-weight: 400;
+}

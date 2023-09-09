@@ -2,21 +2,21 @@
 export const trendingItems = [
   {
     numero: '01',
-    foto: 'perfil.jpg',
+    foto: 'raquel.jpg',
     nombre: 'Marie Le Conte',
     titulo: 'Limbs',
     fecha: 'Aug 9 · 4 min read'
   },
   {
     numero: '02',
-    foto: 'perfil.jpg',
+    foto: 'malky.jpg',
     nombre: 'Malky McEwain in The Weiting Cooperative',
     titulo: 'The Magic Art of Saying More with Less',
     fecha: 'Aug 5 · 5 min read'
   },
   {
     numero: '03',
-    foto: 'perfil.jpg',
+    foto: 'williams.jpg',
     nombre: 'M.H Williams in into The Discourse',
     titulo: 'X Marjs The Spot Where Musk Buried Twitter Brand',
     fecha: 'Jul 31 · 6 min read'
@@ -55,6 +55,20 @@ export const DiscoverMore = [
   'Machine Learning',
   'Productivity',
   'Politics'
+]
+
+export const newList = [
+  {
+    numero: '1',
+    nombreNew: 'Medium Staff in The Medium Blog.',
+    titularNew: 'What We’re Reading: When you talk about AI, context matters',
+    subTitulo: 'When you say ‘AI,’ what are you talking about?',
+    fecha: 'Sep 8 · 5 min read ·',
+    texTag: 'What Were Reading',
+    imgPerfil: 'mediumPerfil.png',
+    imgNew: 'mediumNew.png',
+    favoritoMarc: true
+  }
 ]
 
 console.log(trendingItems.length, DiscoverMore)
